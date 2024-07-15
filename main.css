@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 0;
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 131, 30);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: white;
+    padding: 0 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fullscreen-bg {
+    position: relative;
+    background: url("images/background-carol.png") ;
+    background-size: cover;
+    height: 100vh; 
+    background-position: 10% 100%;
+}
+
+#body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Para garantir que fique sobre a imagem de fundo */
+    width: 100%;
+    max-width: 1280px; 
+    padding: 20px;
+}
+.conteudo {
+    width: 27%;
+    text-align: left;
+}
+
+
+.conteudo button {
+    background-color: rgb(255, 131, 30);
+    border: none;
+    border-radius: 3%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 900;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 7px 7px;
+}
+
+
+.conteudo p{
+    color: rgb(218, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo img {
+    width:  250px; 
+    height: auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 550;
+    font-size: 24px; 
+    margin: 0; 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px; 
+    height: auto;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;    
+    overflow: hidden;
+    
+}
+
+header nav ul {
+    margin-right: 80px;
+}
+
+header nav li {
+    display: inline;
+    padding: 24px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a {
+    color: rgb(218, 218, 218); 
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.img_recomendacao {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 50px;
+    max-width: 100%;
+    overflow: hidden; 
+    margin: 0; 
+}
+
+.img_recomendacao img {
+    width: 240px; 
+    height: auto; 
+    object-fit: cover; 
+    margin: 15px; 
+    cursor: pointer;
+}
+
+.img_patrocina {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 80px;
+    cursor: pointer;
+}
+
+.img_patrocina img {
+    width: 100%;
+}
+
+footer {
+    background: linear-gradient(to top, rgb(255, 131, 30), #000000);
+    color: white; 
+    padding: 30px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%; 
+}
+
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000%;
+    color: white;
+    padding: 20px 50px;
+}
+
+.contato, .metade{
+    flex: 1;
+    padding: 15px 25px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; /* Canto arredondado */
+    background-color: rgb(50, 50, 50); /* Cor de fundo leve */
+    margin: 0 1%; /* Margem entre as caixas */
+}
+
+.contato form button {
+    align-self: flex-start; 
+    padding: 5px 10px;
+    background-color: rgb(255, 131, 30);
+    color: #ecf0f1;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+#contato h2 {
+    width: 100%;
+    padding: 16px;
+}
+
+.social_links img {
+    width: 40px;
+    height: auto;
+}
+
+.social_links {
+    display: flex;
+    gap: 10px; /* Espaço entre os ícones sociais */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.metade {
+    display: grid;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background-color: rgb(50, 50, 50);
+    gap: 10px;
+}
+
+.particoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#contato h2 {
+    color: white;
+    padding: 0 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato h3{   
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contato p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
